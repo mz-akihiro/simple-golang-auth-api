@@ -1,0 +1,13 @@
+services:
+  db:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: akihiro
+      MYSQL_USER: akihiro
+      MYSQL_PASSWORD: akihiro
+      MYSQL_PORT: 3306
+      TZ: 'Asia/Tokyo'
+    ports:
+    - 5434:3306
