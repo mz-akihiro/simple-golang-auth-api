@@ -1,9 +1,9 @@
 package main
 
 import (
-	"study-go-register-mysql/db"
 	"fmt"
 	"log"
+	"simple-golang-auth-api/db"
 
 	_ "github.com/go-sql-driver/mysql"
 )

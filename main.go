@@ -1,11 +1,11 @@
 package main
 
 import (
-	"study-go-register-mysql/login"
-	"study-go-register-mysql/logout"
-	"study-go-register-mysql/signup"
 	"log"
 	"net/http"
+	"simple-golang-auth-api/login"
+	"simple-golang-auth-api/logout"
+	"simple-golang-auth-api/signup"
 )
 
 func main() {

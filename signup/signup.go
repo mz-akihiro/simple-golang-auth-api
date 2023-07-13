@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"study-go-register-mysql/db"
-	"study-go-register-mysql/model"
+	"simple-golang-auth-api/db"
+	"simple-golang-auth-api/model"
 
 	"golang.org/x/crypto/bcrypt"
 )

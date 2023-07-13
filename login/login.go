@@ -1,12 +1,12 @@
 package login
 
 import (
-	"study-go-register-mysql/db"
-	"study-go-register-mysql/model"
 	"encoding/json"
 	"fmt"
 	"net/http"
 	"os"
+	"simple-golang-auth-api/db"
+	"simple-golang-auth-api/model"
 	"time"
 
 	"github.com/golang-jwt/jwt"
